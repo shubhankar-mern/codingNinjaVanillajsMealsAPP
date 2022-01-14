@@ -1,0 +1,156 @@
+#list-Items-container {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 30px;
+}
+#list-Items-container-favorites {
+  justify-content: space-between;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 30px;
+  margin-top: 100px;
+}
+#details-list-container-whole {
+  display: flex;
+}
+#details-list-container-heading {
+  width: auto;
+  height: 40px;
+  font-size: xx-large;
+  font-weight: 900;
+  margin-left: 200px;
+  margin-top: 10px;
+
+  text-decoration: underline;
+}
+#details-list-container {
+  width: 40%;
+  height: auto;
+  font-size: large;
+  font-weight: 800;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+#details-list-container-image {
+  width: 350px;
+  height: 350px;
+  margin-top: 100px;
+}
+#details-list-container-image > img {
+  width: 350px;
+  height: 350px;
+}
+.food-card {
+  border: 2px solid rgb(252, 245, 243);
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+  background: orangered;
+  margin: 10px;
+}
+.food-card-image > img {
+  height: 350px;
+  width: 400px;
+  border-radius: 30px;
+}
+body {
+  background: rgb(244, 32, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 32, 0, 1) 0%,
+    rgba(255, 23, 23, 1) 22%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  font-family: 'M PLUS 2', sans-serif;
+}
+.food-card-info {
+  color: black;
+  text-decoration: underline;
+}
+.food-card-info > h3 {
+  padding: 3px;
+}
+#inputText {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 34vw;
+}
+
+#btn {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+.form-container {
+  margin-top: 15vh;
+}
+.Heading > h1 {
+  font-size: 100px;
+  text-decoration: underline;
+  align-items: center;
+}
+.food-card-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.food-card-features > button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+/*nav header
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 60px;
+  width: 100%;
+  position: sticky;
+  z-index: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links > li > a {
+  list-style-type: none;
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
